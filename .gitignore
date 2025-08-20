@@ -1,0 +1,10 @@
+# Virtual environment folder
+venv/
+.venv/
+
+# Environment variables
+.env
+
+# Compiled Python files
+__pycache__/
+*.pyc
