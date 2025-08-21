@@ -1,7 +1,7 @@
 from fastapi import FastAPI, HTTPException, status
 from typing import List
-from .database import supabase
-from .models import Team, TeamBase, Player, PlayerBase, UUID4
+from database import supabase
+from models import Team, TeamBase, Player, PlayerBase, UUID4
 
 app = FastAPI()
 
